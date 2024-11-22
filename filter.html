@@ -10,19 +10,20 @@
 <body>
 
 <header>
-    EXPLORE EUROPE
+    Explore Europe
 </header>
 
 <nav>
     <a href="#">Home</a>
     <a href="#">Events</a>
-    <a href="#">About us</a>
-    <a href="#">Contact us</a>
-    <button>Sign in</button>
+    <a href="#">About Us</a>
+    <a href="#">Contact Us</a>
+    <button>Sign In</button>
 </nav>
+
 <div class="container">
     <div class="event-filter">
-        <h2>Discover upcoming events</h2>
+        <h2>Discover Upcoming Events</h2>
         <div class="buttons">
             <button>Today</button>
             <button>Tomorrow</button>
@@ -35,7 +36,7 @@
         </div>
         <div class="date-picker">
             <input type="text" placeholder="Pick a date" id="selectedDate" readonly onclick="toggleCalendar()">
-            <div class="calendar" id="calendar" style="display: none;">
+            <div class="calendar" id="calendar">
                 <div class="calendar-header">
                     <span class="prev-month" onclick="changeMonth(-1)">&#10094;</span>
                     <span class="month-year" id="monthYear"></span>
@@ -44,22 +45,90 @@
                 <div class="calendar-body" id="calendarBody"></div>
             </div>
         </div>
-        
     </div>
+    <section id = "events">
+        <div class="card-body">
+            <div class="card">
+                <div class="image-section">
+                  <div class="image-container">
+                    <div class="heart-icon">♡</div>
+                    <div class="navigation-arrow left-arrow">‹</div>
+                    <div class="navigation-arrow right-arrow">›</div>
+                    <div class="image-indicators">
+                      <span class="indicator active"></span>
+                      <span class="indicator"></span>
+                      <span class="indicator"></span>
+                      <span class="indicator"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-section">
+                  <h3 class="title">1. The Royal Edinburgh Military Tattoo</h3>
+                  <div class="rating-section">
+                    <span class="stars">●●●●●</span>
+                    <span class="review-count">6,924</span>
+                  </div>
+                  <p class="category">Cultural Events</p>
+                  <p class="location">Old Town</p>
+                  <div class="reviewer-info">
+                    <img src="OrlinBanq.jpg" alt="Reviewer Avatar" class="reviewer-avatar">
+                    <span class="reviewer-name">By mandy63_13</span>
+                    <p class="review-text">Absolutely amazing, loved it all well worth a visit, very well organized make sure you book your <strong>tickets</strong> well in adv...</p>
+                  </div>
+                  <button class="see-tours-btn">See tours</button>
+                </div>
+                </div>
+        </div>
+        <div class="card-body">
+            <div class="card">
+                <div class="image-section">
+                  <div class="image-container">
+                    <div class="heart-icon">♡</div>
+                    <div class="navigation-arrow left-arrow">‹</div>
+                    <div class="navigation-arrow right-arrow">›</div>
+                    <div class="image-indicators">
+                      <span class="indicator active"></span>
+                      <span class="indicator"></span>
+                      <span class="indicator"></span>
+                      <span class="indicator"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-section">
+                  <h3 class="title">1. The Royal Edinburgh Military Tattoo</h3>
+                  <div class="rating-section">
+                    <span class="stars">●●●●●</span>
+                    <span class="review-count">6,924</span>
+                  </div>
+                  <p class="category">Cultural Events</p>
+                  <p class="location">Old Town</p>
+                  <div class="reviewer-info">
+                    <img src="OrlinBanq.jpg" alt="Reviewer Avatar" class="reviewer-avatar">
+                    <span class="reviewer-name">By mandy63_13</span>
+                    <p class="review-text">Absolutely amazing, loved it all well worth a visit, very well organized make sure you book your <strong>tickets</strong> well in adv...</p>
+                  </div>
+                  <button class="see-tours-btn">See tours</button>
+                </div>
+                </div>
+        </div>
 
-    <div class="content-section" id="events">
+    </section>
+    
+    
+
+    <div class="content-section-card" id="events">
         <h2>Upcoming Events</h2>
         <p>Events will be filtered based on your selected date here.</p>
     </div>
 </div>
 
-<div class="footer">
+<footer class="footer">
     <div class="footer-section">
-        <p>About us</p>
-        <p>About us | Collections | Support us | Copyright</p>
+        <p>About Us</p>
+        <p>Collections | Support Us | Copyright</p>
     </div>
     <div class="footer-section">
-        <p>Follow us</p>
+        <p>Follow Us</p>
         <div class="footer-icons">
             <i class="fab fa-instagram"></i>
             <i class="fab fa-twitter"></i>
@@ -67,10 +136,10 @@
         </div>
     </div>
     <div class="footer-section">
-        <p>Join our newsletter</p>
-        <input type="email" placeholder="Join our newsletter">
+        <p>Join Our Newsletter</p>
+        <input type="email" placeholder="Your Email">
     </div>
-</div>
+</footer>
 
 <script src="filter.js"></script>
 </body>
