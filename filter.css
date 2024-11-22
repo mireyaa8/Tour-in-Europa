@@ -6,7 +6,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   color: #333;
   line-height: 1.6;
   overflow-x: hidden;
@@ -16,8 +15,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  border-bottom: #ddd;
   width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-left: 20px;
 }
 
 .helpmeplease {
@@ -50,13 +50,12 @@ nav a {
   text-decoration: none; /* Remove underlines */
   color: #333; /* Set link color */
   font-size: 16px; /* Adjust font size */
-  font-weight: bold; /* Make links bold */
   padding: 5px; /* Add some padding around links */
 }
 
 nav a:hover {
   color: #555; /* Slight color change on hover */
-  border-bottom: 2px solid #333; /* Optional hover effect */
+  /* Optional hover effect */
 }
 
 .container {
