@@ -17,3 +17,33 @@ body{
    box-shadow:  9px 9px 41px #e8e8e8,
                 -9px -9px 41px #ffffff;
 }
+.footer {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-section {
+    text-align: center;
+}
+
+.footer-section input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-icons i {
+    font-size: 18px;
+    color: #333;
+}
